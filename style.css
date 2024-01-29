@@ -56,3 +56,32 @@ button {
     border-radius: 5px;
     font-size: 14px;
 }
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 60px;
+}
+.product-section h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.product-section img {
+    width: 250px;
+    border-radius: 10px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
